@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="732.2312499999999" y="559.0">logicgate.AndGate</node>
+    <node x="269.24375" y="890.0">logicgate.AllInputsNotDefinedException</node>
+    <node x="557.0" y="559.0">logicgate.XORGate</node>
+    <node x="70.98124999999999" y="102.0">logicgate.Generator</node>
+    <node x="178.48125" y="559.0">logicgate.OrGate</node>
+    <node x="16.243749999999977" y="227.0">logicgate.Gate</node>
+    <node x="183.98125" y="0.0">logicgate.OutputCalculator</node>
+    <node x="0.0" y="559.0">logicgate.NotGate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="logicgate.OrGate" target="logicgate.AllInputsNotDefinedException">
+      <point x="37.5" y="-26.0" />
+      <point x="291.98125" y="779.0" />
+      <point x="375.11875" y="779.0" />
+      <point x="-34.625" y="37.0" />
+    </edge>
+    <edge source="logicgate.OrGate" target="logicgate.Gate">
+      <point x="-37.5" y="-26.0" />
+      <point x="215.98125" y="519.0" />
+      <point x="189.49374999999998" y="519.0" />
+      <point x="-57.75" y="126.0" />
+    </edge>
+    <edge source="logicgate.XORGate" target="logicgate.Gate">
+      <point x="-37.5" y="-26.0" />
+      <point x="594.5" y="519.0" />
+      <point x="304.99375" y="519.0" />
+      <point x="57.75" y="126.0" />
+    </edge>
+    <edge source="logicgate.NotGate" target="logicgate.AllInputsNotDefinedException">
+      <point x="37.5" y="-26.0" />
+      <point x="112.5" y="1156.0" />
+      <point x="304.86875" y="1155.0" />
+      <point x="-103.875" y="37.0" />
+    </edge>
+    <edge source="logicgate.Generator" target="logicgate.OutputCalculator">
+      <point x="0.0" y="-37.5" />
+      <point x="169.48125" y="77.0" />
+      <point x="208.98125" y="77.0" />
+      <point x="-50.0" y="26.0" />
+    </edge>
+    <edge source="logicgate.AndGate" target="logicgate.Gate">
+      <point x="-37.5" y="-26.0" />
+      <point x="769.7312499999999" y="509.0" />
+      <point x="420.49375" y="509.0" />
+      <point x="173.25" y="126.0" />
+    </edge>
+    <edge source="logicgate.AndGate" target="logicgate.AllInputsNotDefinedException">
+      <point x="37.5" y="-26.0" />
+      <point x="852.7312499999999" y="1060.0" />
+      <point x="512.61875" y="1062.0" />
+      <point x="103.875" y="37.0" />
+    </edge>
+    <edge source="logicgate.XORGate" target="logicgate.AllInputsNotDefinedException">
+      <point x="37.5" y="-26.0" />
+      <point x="671.5" y="727.0" />
+      <point x="442.36875" y="726.0" />
+      <point x="34.625" y="37.0" />
+    </edge>
+    <edge source="logicgate.NotGate" target="logicgate.Gate">
+      <point x="-37.5" y="-26.0" />
+      <point x="37.5" y="539.0" />
+      <point x="73.99374999999998" y="539.0" />
+      <point x="-173.25" y="126.0" />
+    </edge>
+    <edge source="logicgate.Gate" target="logicgate.OutputCalculator">
+      <point x="154.0" y="-126.0" />
+      <point x="401.24375" y="202.0" />
+      <point x="289.48125" y="202.0" />
+      <point x="289.48125" y="77.0" />
+      <point x="308.98125" y="77.0" />
+      <point x="50.0" y="26.0" />
+    </edge>
+    <edge source="logicgate.Gate" target="logicgate.Generator">
+      <point x="-154.0" y="-126.0" />
+      <point x="93.24374999999998" y="202.0" />
+      <point x="169.48125" y="202.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6157893747768403" x="322.36766052246094" y="593.2736053466797" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
